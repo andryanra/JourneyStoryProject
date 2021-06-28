@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29377F</color>
+    <color name="colorPrimaryDark">#F5BE1E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffff</color>
+    <color name="dongker">#29377F</color>
+
+    <color name="hitam">#4B4B4D</color>
+    <color name="hijau">#009688</color>
+    <color name="merah">#ff1744</color>
+    <color name="biru">#2979ff</color>
+    <color name="putih">#ffff</color>
+    <color name="abu">#89dedede</color>
+    <color name="empty">#c1c1c1</color>
+
+    <color name="cardColor">#ffffff</color>
+    <color name="textcardColor">#3f3f3f</color>
+
+
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorCloud">#ecf0f1</color>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nama_klu">
+        <item>Jasa</item>
+        <item>Dagang</item>
+        <item>Industri</item>
+    </string-array>
+
+    <string-array name="situasi_objek">
+        <item>Sepi</item>
+        <item>Sedang</item>
+        <item>Ramai</item>
+    </string-array>
+
+    <string-array name="jml_karyawan">
+        <item>1 - 5</item>
+        <item>6 - 10</item>
+        <item>11 - 15</item>
+        <item>> 15</item>
+    </string-array>
+
+    <string-array name="omzet">
+        <item>1 - 5 Juta</item>
+        <item>6 - 10 Juta</item>
+        <item>10 - 25 Juta</item>
+        <item>25 - 50 Juta</item>
+        <item>> 50 Juta</item>
+    </string-array>
+
+    <string-array name="wp">
+        <item>Wajib Pajak Badan</item>
+        <item>Wajib Pajak Perorangan</item>
+    </string-array>
+
+    <string-array name="pkp">
+        <item>PKP</item>
+        <item>Non - PKP</item>
+        <item>PP 23</item>
+        <item>Non PP 23</item>
+    </string-array>
+
+    <string-array name="potensial">
+        <item>*</item>
+        <item>**</item>
+        <item>***</item>
+        <item>****</item>
+        <item>*****</item>
+    </string-array>
+
+</resources>

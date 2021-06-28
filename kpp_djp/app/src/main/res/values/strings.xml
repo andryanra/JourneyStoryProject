@@ -1,0 +1,9 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="show_location_picker">Show Location Picker</string>
+    <string name="api_key">AIzaSyBIYC3Up1Jmbw-2Jo33xmuZl9HV88MkItw</string>
+    <string name="nama_aplikasi">Journey Story</string>
+
+
+</resources>

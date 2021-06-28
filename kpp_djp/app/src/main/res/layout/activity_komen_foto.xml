@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    tools:context="com.djp.kpp.Menu.CaptureData.KomenFoto">-->
+
+
+    <TextView
+        android:id="@+id/btnGaleria1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Komentar ttg Objek Pengamatan :"
+        android:textColor="@color/hitam"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/komentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Komentar"
+        android:lines="3"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnGaleria1" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Foto Objek Pengamatan :"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/komentar" />
+
+    <Button
+        android:id="@+id/btnGaleria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv" />
+    <Button
+        android:id="@+id/btnSubirImagenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnGaleria" />
+
+    <GridView
+        android:id="@+id/gvImagenes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:numColumns="3"
+        android:columnWidth="100dp"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubirImagenes" />
+
+</android.support.constraint.ConstraintLayout>
